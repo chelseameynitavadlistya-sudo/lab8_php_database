@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #fff;
+    color: #222;
+}
+.container {
+    width: 800px;
+    margin: 20px auto;
+}
+h1 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+}
+a {
+    color: #0000ee;
+    text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 6px 8px;
+    text-align: left;
+    font-size: 14px;
+}
+th { text-align: center; }
+img { max-width: 80px; height: auto; }
+.input {
+    margin-bottom: 10px;
+}
+.input label {
+    display: inline-block;
+    width: 150px;
+}
+.input input[type="text"], .input select {
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 180px;
+}
+.submit { margin-left: 150px; }
+.submit input {
+    background: blue;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
